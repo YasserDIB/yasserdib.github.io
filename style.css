@@ -103,16 +103,16 @@ img{
 
 /*===== LAYOUT =====*/
 .bd-grid{
-    max-width: 925px;
+    max-width: 950px;
     display: grid;
     grid-template-columns: 95%;
-    grid-column-gap: 1.85rem;
-    width: calc(95% - 1.85rem);
+    grid-column-gap: 1.95rem;
+    width: calc(95% - 1.95rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
 .l-header{
-    width: 92.5%;
+    width: 95%;
     position: fixed;
     top: 0;
     left: 0;
