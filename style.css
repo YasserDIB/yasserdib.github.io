@@ -9,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #191970;
+    --first-color: #004080;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -174,7 +174,7 @@ img{
     height: .18rem;
     left: 0;
     top: 2rem;
-    background-color: var(--first-color) ;
+    background-color: white ;
 }
 
 /*===== HOME =====*/
