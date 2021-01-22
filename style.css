@@ -103,7 +103,7 @@ img{
 
 /*===== LAYOUT =====*/
 .bd-grid{
-    max-width: 950px;
+    max-width: 975px;
     display: grid;
     grid-template-columns: 95%;
     grid-column-gap: 1.95rem;
@@ -225,8 +225,8 @@ img{
     justify-self: center ;
 }
 .about__img img{
-    width: 200px;
-    border-radius:.5rem;
+    width: 250px;
+    border-radius:.55rem;
 }
 .about__subtitle{
     font-size: 2.75rem;
