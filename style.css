@@ -103,11 +103,11 @@ img{
 
 /*===== LAYOUT =====*/
 .bd-grid{
-    max-width: 975px;
+    max-width: 1010px;
     display: grid;
-    grid-template-columns: 97.5%;
-    grid-column-gap: 1.95rem;
-    width: calc(95% - 1.95rem);
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(95% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
@@ -229,7 +229,7 @@ img{
     border-radius:.55rem;
 }
 .about__subtitle{
-    font-size: 2.35rem;
+    font-size: 2.45rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
