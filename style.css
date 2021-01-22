@@ -192,7 +192,8 @@ img{
 }
 .home__title{
     align-self: flex-end;
-    font-size: 9rem;
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-5);
     color: var(--white-color);
     line-height: .8;
 }
