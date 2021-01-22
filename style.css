@@ -389,6 +389,7 @@ img{
         padding-top: 4rem;
     }
     .section-title{
+        border-radius:.55rem;
         font-size: 2.25rem;
         margin-bottom: 3rem;
     }
