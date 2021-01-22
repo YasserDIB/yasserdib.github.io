@@ -163,6 +163,7 @@ img{
 /*=== Show menu ===*/
 .show{
     right: 0;
+    background-color: var(--first-color);
 }
 
 /*Active menu*/
@@ -173,7 +174,7 @@ img{
     height: .18rem;
     left: 0;
     top: 2rem;
-    background-color: dark ;
+    background-color: var(--first-color) ;
 }
 
 /*===== HOME =====*/
