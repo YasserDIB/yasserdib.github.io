@@ -264,11 +264,11 @@ img{
 .skills__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
-    font-size: 1.65rem;
+    font-size: 1.35rem;
 }
 .skills__name{
     display: inline-block;
-    font-size: 1.35rem;
+    font-size: 1.1rem;
     margin-right: var(--mb-2);
     padding: .25rem .5rem;
     background-color: var(--white-color);
@@ -318,11 +318,11 @@ img{
 .contact__subtitle{
      margin: 0;
     padding: 0;
-    font-size:1.5rem;
+    font-size:1.3rem;
     color: var(--first-color);
 }
 .contact__text{
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: black;
     display: inline-block;
     margin-bottom: var(--mb-2);
@@ -389,7 +389,6 @@ img{
         padding-top: 4rem;
     }
     .section-title{
-        border-radius:.55rem;
         font-size: 2.25rem;
         margin-bottom: 3rem;
     }
