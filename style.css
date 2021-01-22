@@ -103,7 +103,7 @@ img{
 
 /*===== LAYOUT =====*/
 .bd-grid{
-    max-width: 1080px;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 105%;
     grid-column-gap: 2.1rem;
