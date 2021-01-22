@@ -107,12 +107,12 @@ img{
     display: grid;
     grid-template-columns: 95%;
     grid-column-gap: 1.95rem;
-    width: calc(95% - 1.95rem);
+    width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
 .l-header{
-    width: 95%;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
