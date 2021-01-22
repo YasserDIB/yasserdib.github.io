@@ -204,16 +204,6 @@ img{
     transform: rotate(-180deg);
     color: var(--white-color);
 }
-.home__img{
-    position: absolute;
-    right: 0px;
-    bottom: 150px;
-    width: 100px;
-    height: 350px;
-    padding: 0;
-    margin: 0;
-    
-}
 
 /* ===== ABOUT =====*/
 .about__container{
