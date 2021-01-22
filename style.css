@@ -105,14 +105,14 @@ img{
 .bd-grid{
     max-width: 975px;
     display: grid;
-    grid-template-columns: 95%;
+    grid-template-columns: 97.5%;
     grid-column-gap: 1.95rem;
     width: calc(95% - 1.95rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
 .l-header{
-    width: 95%;
+    width: 97.5%;
     position: fixed;
     top: 0;
     left: 0;
@@ -229,7 +229,7 @@ img{
     border-radius:.55rem;
 }
 .about__subtitle{
-    font-size: 2.75rem;
+    font-size: 2.35rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
