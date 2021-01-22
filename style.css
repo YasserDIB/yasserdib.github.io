@@ -272,7 +272,6 @@ img{
     margin-bottom: var(--mb-3);
     padding: .25rem .5rem;
     background-color: var(--white-color);
-    border-radius: .25rem;
     color: black
 }
 .skills__name:hover{
