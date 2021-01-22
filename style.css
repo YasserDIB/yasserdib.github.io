@@ -279,11 +279,9 @@ img{
     background-color: var(--first-color);
     color: black;
 }
-.skills__img img{
-    border-radius: .5rem;
-}
 
-/* ===== PORTFOLIO =====*/
+
+/* ===== EXPERIENCE =====*/
 .experience{
     background-color: var(--white-color);
 }
@@ -451,7 +449,7 @@ img{
         align-items: center;
     }
 
-    .portfolio__container{
+    .experience_container{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;
