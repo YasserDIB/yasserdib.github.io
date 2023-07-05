@@ -16,7 +16,8 @@
         link.href = url;
         link.onload = link.onerror = callback;
         document.head.appendChild(link);
-      } else {
+      }
+      else {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
         xhr.onloadend = callback;
@@ -114,23 +115,8 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
 
 <!-- BEGIN app block: shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507 -->
 
-
-
-
-
-
-
-
-
-
-
-
   <script async src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=QWEyrb"></script>
   <script>!function(){if(!window.klaviyo){window._klOnsite=window._klOnsite||[];try{window.klaviyo=new Proxy({},{get:function(n,i){return"push"===i?function(){var n;(n=window._klOnsite).push.apply(n,arguments)}:function(){for(var n=arguments.length,o=new Array(n),w=0;w<n;w++)o[w]=arguments[w];var t="function"==typeof o[o.length-1]?o.pop():void 0,e=new Promise((function(n){window._klOnsite.push([i].concat(o,[function(i){t&&t(i),n(i)}]))}));return e}}})}catch(n){window.klaviyo=window.klaviyo||[],window.klaviyo.push=function(){var n;(n=window._klOnsite).push.apply(n,arguments)}}}}();</script>
-
-  
-
-
 
 <!-- END app app block --><!-- BEGIN app block: shopify://apps/cartbot/blocks/cartbot-script-append/f7a44e3b-3901-4412-9d5a-3db0980a9db0 --><script defer="defer">
 	/**	Cartbot script loader, version number: 2.0 */
