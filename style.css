@@ -1,1 +1,219 @@
+<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 240px;
+  }
+}
+<style data-shopify>
+      @font-face {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_n4.c86cddcf8b15d564761aaa71b6201ea326f3648b.woff2?h1=YmVsbGFib290eS0xNzc2LmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=YmVsbGFib290eS5jb20&hmac=2fad32471ae87564f29c0a207b7c4675fe734e01ac41af04ac4b870694b31d12") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_n4.e0ee1e2c008a0f429542630edf70be01045ac5e9.woff?h1=YmVsbGFib290eS0xNzc2LmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=YmVsbGFib290eS5jb20&hmac=0294f8e07f8a6a9c334424af9345701f9b662fa8eeb6cf8f05de9192e50d94f6") format("woff");
+}
+
+      @font-face {
+  font-family: Lato;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_n7.f0037142450bd729bdf6ba826f5fdcd80f2787ba.woff2?h1=YmVsbGFib290eS0xNzc2LmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=YmVsbGFib290eS5jb20&hmac=47ca19b4f009f43387d028260808f456b9f6f91dfdba0384351885e00db93d1d") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_n7.50161a3d4f05d049b7407d86c5a8834e4d6e29bf.woff?h1=YmVsbGFib290eS0xNzc2LmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=YmVsbGFib290eS5jb20&hmac=4065f09f79e95fa68c62a6d8061c1b9bc90ba425de943eccafdf8fa8d9efeb90") format("woff");
+}
+
+      @font-face {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_i4.7307831c0d06d264a76f2f7310f8a29d0507d6d0.woff2?h1=YmVsbGFib290eS0xNzc2LmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=YmVsbGFib290eS5jb20&hmac=1ecefdd377ae79790ea9e22f2a5599e6a3f7a020b1e11461d14210a3edbe80fd") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_i4.fb695d0d68d5b174347edaf543726b1903b57796.woff?h1=YmVsbGFib290eS0xNzc2LmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=YmVsbGFib290eS5jb20&hmac=8bfaf4e2f9761cecbb30645e283be12511d3f8f922caa4f96a7e2c71017a7394") format("woff");
+}
+
+      @font-face {
+  font-family: Lato;
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/lato/lato_i7.86965a52f2ddabac45abc106c3d0cc22ac7b57bb.woff2?h1=YmVsbGFib290eS0xNzc2LmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=YmVsbGFib290eS5jb20&hmac=97ba6ef254215bac1b62e009fa4d71d2c1e03626cae0d069ad1c1ff4e341cdd5") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_i7.34d7f5a12391e5532b516b8bb3974f4cc3ee25ae.woff?h1=YmVsbGFib290eS0xNzc2LmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=YmVsbGFib290eS5jb20&hmac=f16b3d26f75843fbd83d4e8627a1a7b38578ea9fcab0474a610d3850a80aeac5") format("woff");
+}
+
+      
+
+      :root {
+        --font-body-family: Lato, sans-serif;
+        --font-body-style: normal;
+        --font-body-weight: 400;
+        --font-body-weight-bold: 700;
+
+        --font-heading-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        --font-heading-style: normal;
+        --font-heading-weight: 400;
+
+        --font-body-scale: 1.0;
+        --font-heading-scale: 1.0;
+
+        --color-base-text: 55, 55, 55;
+        --color-shadow: 55, 55, 55;
+        --color-base-background-1: 255, 255, 255;
+        --color-base-background-2: 244, 243, 238;
+        --color-base-solid-button-labels: 255, 255, 255;
+        --color-base-outline-button-labels: 55, 55, 55;
+        --color-base-accent-1: 161, 47, 60;
+        --color-base-accent-2: 161, 47, 60;
+        --payment-terms-background-color: #ffffff;
+
+        --gradient-base-background-1: #ffffff;
+        --gradient-base-background-2: #f4f3ee;
+        --gradient-base-accent-1: #a12f3c;
+        --gradient-base-accent-2: #a12f3c;
+
+        --media-padding: px;
+        --media-border-opacity: 0.05;
+        --media-border-width: 1px;
+        --media-radius: 10px;
+        --media-shadow-opacity: 0.0;
+        --media-shadow-horizontal-offset: 0px;
+        --media-shadow-vertical-offset: 4px;
+        --media-shadow-blur-radius: 5px;
+        --media-shadow-visible: 0;
+
+        --page-width: 120rem;
+        --page-width-margin: 0rem;
+
+        --product-card-image-padding: 0.0rem;
+        --product-card-corner-radius: 1.0rem;
+        --product-card-text-alignment: left;
+        --product-card-border-width: 0.0rem;
+        --product-card-border-opacity: 0.1;
+        --product-card-shadow-opacity: 0.0;
+        --product-card-shadow-visible: 0;
+        --product-card-shadow-horizontal-offset: 0.0rem;
+        --product-card-shadow-vertical-offset: 0.4rem;
+        --product-card-shadow-blur-radius: 0.5rem;
+
+        --collection-card-image-padding: 0.0rem;
+        --collection-card-corner-radius: 0.0rem;
+        --collection-card-text-alignment: left;
+        --collection-card-border-width: 0.0rem;
+        --collection-card-border-opacity: 0.1;
+        --collection-card-shadow-opacity: 0.0;
+        --collection-card-shadow-visible: 0;
+        --collection-card-shadow-horizontal-offset: 0.0rem;
+        --collection-card-shadow-vertical-offset: 0.4rem;
+        --collection-card-shadow-blur-radius: 0.5rem;
+
+        --blog-card-image-padding: 0.0rem;
+        --blog-card-corner-radius: 0.0rem;
+        --blog-card-text-alignment: left;
+        --blog-card-border-width: 0.0rem;
+        --blog-card-border-opacity: 0.1;
+        --blog-card-shadow-opacity: 0.0;
+        --blog-card-shadow-visible: 0;
+        --blog-card-shadow-horizontal-offset: 0.0rem;
+        --blog-card-shadow-vertical-offset: 0.4rem;
+        --blog-card-shadow-blur-radius: 0.5rem;
+
+        --badge-corner-radius: 4.0rem;
+
+        --popup-border-width: 1px;
+        --popup-border-opacity: 0.1;
+        --popup-corner-radius: 0px;
+        --popup-shadow-opacity: 0.0;
+        --popup-shadow-horizontal-offset: 0px;
+        --popup-shadow-vertical-offset: 4px;
+        --popup-shadow-blur-radius: 5px;
+
+        --drawer-border-width: 1px;
+        --drawer-border-opacity: 0.1;
+        --drawer-shadow-opacity: 0.0;
+        --drawer-shadow-horizontal-offset: 0px;
+        --drawer-shadow-vertical-offset: 4px;
+        --drawer-shadow-blur-radius: 5px;
+
+        --spacing-sections-desktop: 0px;
+        --spacing-sections-mobile: 0px;
+
+        --grid-desktop-vertical-spacing: 8px;
+        --grid-desktop-horizontal-spacing: 8px;
+        --grid-mobile-vertical-spacing: 4px;
+        --grid-mobile-horizontal-spacing: 4px;
+
+        --text-boxes-border-opacity: 0.1;
+        --text-boxes-border-width: 0px;
+        --text-boxes-radius: 10px;
+        --text-boxes-shadow-opacity: 0.0;
+        --text-boxes-shadow-visible: 0;
+        --text-boxes-shadow-horizontal-offset: 0px;
+        --text-boxes-shadow-vertical-offset: 4px;
+        --text-boxes-shadow-blur-radius: 5px;
+
+        --buttons-radius: 20px;
+        --buttons-radius-outset: 21px;
+        --buttons-border-width: 1px;
+        --buttons-border-opacity: 1.0;
+        --buttons-shadow-opacity: 0.0;
+        --buttons-shadow-visible: 0;
+        --buttons-shadow-horizontal-offset: 0px;
+        --buttons-shadow-vertical-offset: 4px;
+        --buttons-shadow-blur-radius: 5px;
+        --buttons-border-offset: 0.3px;
+
+        --inputs-radius: 0px;
+        --inputs-border-width: 1px;
+        --inputs-border-opacity: 0.55;
+        --inputs-shadow-opacity: 0.0;
+        --inputs-shadow-horizontal-offset: 0px;
+        --inputs-margin-offset: 0px;
+        --inputs-shadow-vertical-offset: 4px;
+        --inputs-shadow-blur-radius: 5px;
+        --inputs-radius-outset: 0px;
+
+        --variant-pills-radius: 40px;
+        --variant-pills-border-width: 1px;
+        --variant-pills-border-opacity: 0.55;
+        --variant-pills-shadow-opacity: 0.0;
+        --variant-pills-shadow-horizontal-offset: 0px;
+        --variant-pills-shadow-vertical-offset: 4px;
+        --variant-pills-shadow-blur-radius: 5px;
+      }
+ *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+html {
+        box-sizing: border-box;
+        font-size: calc(var(--font-body-scale) * 62.5%);
+        height: 100%;
+      }
+
+      body {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-columns: 100%;
+        min-height: 100%;
+        margin: 0;
+        font-size: 1.5rem;
+        letter-spacing: 0.06rem;
+        line-height: calc(1 + 0.8 / var(--font-body-scale));
+        font-family: var(--font-body-family);
+        font-style: var(--font-body-style);
+        font-weight: var(--font-body-weight);
+      }
+
+      @media screen and (min-width: 750px) {
+        body {
+          font-size: 1.6rem;
+        }
+      }
+    </style>
 
