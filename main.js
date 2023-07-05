@@ -1,11 +1,11 @@
 <script src="//cdn.shopify.com/s/files/1/0712/6306/0253/t/7/assets/constants.js?v=165488195745554878101680032064" defer="defer"></script>
-    <script src="//cdn.shopify.com/s/files/1/0712/6306/0253/t/7/assets/pubsub.js?v=2921868252632587581680032082" defer="defer"></script>
-    <script src="//cdn.shopify.com/s/files/1/0712/6306/0253/t/7/assets/global.js?v=85297797553816670871680032069" defer="defer"></script>
-    <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="qwUyBq-FiOyExmijm4cFjXv2w5v9LHcFYbQS2uM3rLU">
+<script src="//cdn.shopify.com/s/files/1/0712/6306/0253/t/7/assets/pubsub.js?v=2921868252632587581680032082" defer="defer"></script>
+<script src="//cdn.shopify.com/s/files/1/0712/6306/0253/t/7/assets/global.js?v=85297797553816670871680032069" defer="defer"></script>
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="qwUyBq-FiOyExmijm4cFjXv2w5v9LHcFYbQS2uM3rLU">
 <script>
   (function() {
-    var scripts = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.latest.en.8645d252f07ec25fdbc6.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-packages~Information~NoAddressLocation~Payment~PostPurchase~Review~Shipping~ShopPay~Sho~cf13f96e.latest.en.04837ae4ff5a8e949953.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information~Payment~ShopPay.latest.en.84ff9c0024faf7f72c14.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.en.900911b3d82c82309ebf.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-ui~app.latest.en.86cd9328cdcd6cd3a58f.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/vendors~app.latest.en.b4546f9bffad10b3673b.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-packages~app.latest.en.f5154093d2604596d084.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.931851b1b02f1bcae42a.js"];
-    var styles = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-ui~app.latest.en.9f2a5e9ec696775e2217.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/vendors~app.latest.en.e788719f193b49c039a3.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.6b4c79ead7042980b29d.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information~Payment~ShopPay.latest.en.da9f06164a980bf8e7ea.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.en.9a0274ab07be120c1902.css"];
+    var scripts = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.latest.en.e96e999345b5fddefdcf.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/567.latest.en.2b4f0e71902847154ce7.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/32.latest.en.0f5d11c99a3bd1a56345.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.en.95e40652bfa426172fe6.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/117.latest.en.350a957db12e9c0e648e.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/842.latest.en.092aa57723a413a2ed12.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/551.latest.en.96cddf050dd65fe38b1c.js", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.f1460fe4c1418f73585d.js"];
+    var styles = ["https://cdn.shopify.com/shopifycloud/checkout-web/assets/117.latest.en.c7ef748f342e9e1b0da6.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.en.a37d584838a2b29fd44e.css", "https://cdn.shopify.com/shopifycloud/checkout-web/assets/739.latest.en.bd2443a6e45dbcb17de8.css"];
 
     function prefetch(url, as, callback) {
       var link = document.createElement('link');
@@ -16,8 +16,7 @@
         link.href = url;
         link.onload = link.onerror = callback;
         document.head.appendChild(link);
-      }
-      else {
+      } else {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
         xhr.onloadend = callback;
@@ -75,16 +74,14 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script id="__st">var __st={"a":71263060253,"offset":-25200,"reqid":"7cfc63c1-c44a-4c69-bef5-35d3a8100917","pageurl":"bellabooty.com\/","u":"bff93833cd9f","p":"home"};</script>
+<script id="__st">var __st={"a":71263060253,"offset":-25200,"reqid":"000b739a-ac2d-454d-8813-437c6bb8d289","pageurl":"bellabooty.com\/?fbclid=PAAaaTa3DfhmaeCivMTNmU2_wDzerwKs23_ut-5DBY9FECzcAQ9FbwOi0WqaA_aem_AX2fLPm9jFuBaccfscUN0M8Ru2mU9AMwYtQRZENVzedFlnxdYrtFCBX63hmify_mfzk","u":"2de3609f56d8","p":"home"};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script>!function(o){o.addEventListener("DOMContentLoaded",function(){window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};var t=['form[action*="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action*="/account"] input[name="form_type"][value="customer_login"]','form[action*="/account"] input[name="form_type"][value="recover_customer_password"]','form[action*="/account"] input[name="form_type"][value="create_customer"]','form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");function n(e){e=e.target;null==e||null!=(e=function e(t,n){if(null==t.parentElement)return null;if("FORM"!=t.parentElement.tagName)return e(t.parentElement,n);for(var o=t.parentElement.action,r=0;r<n.length;r++)if(-1!==o.indexOf(n[r]))return t.parentElement;return null}(e,["/contact","/comments","/account"]))&&null!=e.querySelector(t)&&((e=o.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"),o.body.appendChild(e),o.removeEventListener("focus",n,!0),o.removeEventListener("change",n,!0),o.removeEventListener("click",n,!0))}o.addEventListener("click",n,!0),o.addEventListener("change",n,!0),o.addEventListener("focus",n,!0)})}(document);</script>
 <script integrity="sha256-PxOtY43aY0IIRkJyboCWUgXVuC12GAXQ8LKFAxO8H98=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-3f13ad638dda6342084642726e80965205d5b82d761805d0f0b2850313bc1fdf.js" crossorigin="anonymous"></script>
 <script crossorigin="anonymous" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-c31d2fa4962d2ef90b673e945ee33f4f87302b97d0882cd8e83a629b84b30dab.js?v=20220906"></script>
 <script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
 <script id="sections-script" data-sections="header" defer="defer" src="//cdn.shopify.com/s/files/1/0712/6306/0253/t/7/compiled_assets/scripts.js?3671"></script>
-</style><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
-</style><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
-  </script>
+</script>
   <!-- Start VWO Async SmartCode -->
 <script type='text/javascript' id='vwoCode'>
 window._vwo_code=window._vwo_code || (function() {
@@ -112,15 +109,26 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
 </script><script>window.is_hulkpo_installed=true</script> 
 <script src="https://www.dwin1.com/19038.js" type="text/javascript" defer="defer"></script>
 
+<!-- BEGIN app block: shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed -->
+  <script async src="https://script.crazyegg.com/pages/scripts/0075/8276.js"></script>
 
-<!-- BEGIN app block: shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507 -->
+<!-- END app app block --><!-- BEGIN app block: shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507 -->
 
   <script async src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=QWEyrb"></script>
   <script>!function(){if(!window.klaviyo){window._klOnsite=window._klOnsite||[];try{window.klaviyo=new Proxy({},{get:function(n,i){return"push"===i?function(){var n;(n=window._klOnsite).push.apply(n,arguments)}:function(){for(var n=arguments.length,o=new Array(n),w=0;w<n;w++)o[w]=arguments[w];var t="function"==typeof o[o.length-1]?o.pop():void 0,e=new Promise((function(n){window._klOnsite.push([i].concat(o,[function(i){t&&t(i),n(i)}]))}));return e}}})}catch(n){window.klaviyo=window.klaviyo||[],window.klaviyo.push=function(){var n;(n=window._klOnsite).push.apply(n,arguments)}}}}();</script>
-
+<!-- END app app block --><!-- BEGIN app block: shopify://apps/videowise-video-platform/blocks/script_embed/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d -->
+<script
+  defer
+  src="https://assets.videowise.com/vendors.js.gz"
+  defer="defer"
+  id="videowise-vendors-js"></script>
+<script
+  src="https://assets.videowise.com/client.js.gz"
+  defer="defer"
+  id="videowise-client-js"></script>
 <!-- END app app block --><!-- BEGIN app block: shopify://apps/cartbot/blocks/cartbot-script-append/f7a44e3b-3901-4412-9d5a-3db0980a9db0 --><script defer="defer">
-	/**	Cartbot script loader, version number: 2.0 */
-	(function(){
+  /**	Cartbot script loader, version number: 2.0 */
+  (function(){
 		var loadScript=function(a,b){var c=document.createElement("script");c.type="text/javascript",c.readyState?c.onreadystatechange=function(){("loaded"==c.readyState||"complete"==c.readyState)&&(c.onreadystatechange=null,b())}:c.onload=function(){b()},c.src=a,document.getElementsByTagName("head")[0].appendChild(c)};
 		appendScriptUrl('bellabooty-1776.myshopify.com');
 
@@ -158,9 +166,6 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
 
 	var CartBotScriptAppended = true;
 </script>
-
-<!-- END app app block --><!-- BEGIN app block: shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed -->
-  <script async src="https://script.crazyegg.com/pages/scripts/0075/8276.js"></script>
 
 
   
