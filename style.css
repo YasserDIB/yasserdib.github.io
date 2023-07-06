@@ -179,6 +179,10 @@ img{
         backdrop-filter: blur(10px);
 
 }
+.video {
+  width: 100%; /* ajustez la largeur selon vos besoins */
+  height: auto; /* ajustez la hauteur selon vos besoins */
+}
 
 /*===== HOME =====*/
 .home{
