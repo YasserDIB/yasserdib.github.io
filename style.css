@@ -221,6 +221,16 @@ img{
     width: 80%; /* ajustez la largeur selon vos besoins */
     height: 20%; /* ajustez la hauteur selon vos besoins */
 }
+}
+.home__scroll{
+    align-self: flex-end;
+    padding-bottom: var(--mb-4);
+}
+.home__scroll-link{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: var(--white-color);
+}
 /* ===== BELT =====*/
 .belt__container{
     justify-items: center;
