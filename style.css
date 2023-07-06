@@ -131,9 +131,9 @@ img{
     .nav__menu{
         position: fixed;
         top: var(--header-height);
-        right: -100%;
-        width: 80%;
-        height: 100%;
+        right: -80%;
+        width: 70%;
+        height: 80%;
         padding: 2rem;
         background-color: whit);
         transition: .5s;
@@ -170,9 +170,9 @@ img{
 .active::after{
        position: fixed;
         top: var(--header-height);
-        right: -100%;
-        width: 80%;
-        height: 100%;
+        right: -80%;
+        width: 70%;
+        height: 80%;
         padding: 2rem;
         background-color: rgba(255,255,255,.3);
         transition: .5s;
