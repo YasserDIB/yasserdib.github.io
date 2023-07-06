@@ -218,8 +218,8 @@ img{
     color: var(--first-color);
 }
 .home__video{
-    width: 100%; /* ajustez la largeur selon vos besoins */
-  height: auto; /* ajustez la hauteur selon vos besoins */
+    width: 80%; /* ajustez la largeur selon vos besoins */
+    height: 20%; /* ajustez la hauteur selon vos besoins */
 }
 /* ===== BELT =====*/
 .belt__container{
