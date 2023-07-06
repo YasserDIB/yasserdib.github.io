@@ -188,7 +188,13 @@ img{
     text-align: center;
 }
 .home__img{
-    justify-self: center ;
+    position: absolute;
+    right: 0px;
+    bottom: 120px;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0; 
 }
 .home__img img{
     width: 100px;
@@ -218,8 +224,8 @@ img{
     color: var(--first-color);
 }
 .home__video{
-    width: 80%; /* ajustez la largeur selon vos besoins */
-    height: 20%; /* ajustez la hauteur selon vos besoins */
+    width: 20%; /* ajustez la largeur selon vos besoins */
+    height: 50%; /* ajustez la hauteur selon vos besoins */
 }
 }
 .home__scroll{
