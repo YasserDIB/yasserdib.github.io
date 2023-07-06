@@ -190,9 +190,9 @@ img{
 .home__img{
     position: absolute;
     right: 0px;
-    bottom: 120px;
-    width: 80px;
-    height: 80px;
+    bottom: 150px;
+    width: 100px;
+    height: 100px;
     padding: 0;
     margin: 0; 
 }
@@ -224,8 +224,8 @@ img{
     color: var(--first-color);
 }
 .home__video{
-    width: 20%; /* ajustez la largeur selon vos besoins */
-    height: 50%; /* ajustez la hauteur selon vos besoins */
+    width: 200%; /* ajustez la largeur selon vos besoins */
+    height: 10%; /* ajustez la hauteur selon vos besoins */
 }
 }
 .home__scroll{
