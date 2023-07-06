@@ -180,8 +180,8 @@ img{
 
 }
 .video {
-  width: 100%; /* ajustez la largeur selon vos besoins */
-  height: auto; /* ajustez la hauteur selon vos besoins */
+  width: 50%; /* ajustez la largeur selon vos besoins */
+  height: 50%; /* ajustez la hauteur selon vos besoins */
 }
 
 /*===== HOME =====*/
