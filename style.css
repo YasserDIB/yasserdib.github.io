@@ -216,53 +216,53 @@ img{
     
 }
 
-/* ===== ABOUT =====*/
-.about__container{
+/* ===== BELT =====*/
+.belt__container{
     justify-items: center;
     row-gap: 2rem;
     text-align: center;
 }
-.about__img{
+.belt__img{
     justify-self: center ;
 }
-.about__img img{
+.belt__img img{
     width: 250px;
     border-radius:.55rem;
 }
-.about__subtitle{
+.belt__subtitle{
     font-size: 2.05rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
-.about__text{
+.belt__text{
     font-size: 1.15rem;
     color: black;
     margin-bottom: var(--mb-4);
 }
-.about__profession{
+.belt__profession{
     color: black;
     font-size: 1.75rem;
     display: block;
     margin-bottom: var(--mb-4);
 }
-.about__social-icon{
+.belt__social-icon{
     font-size: 1.45rem;
     margin: 0 var(--mb-1);
 }
-.about__social-icon:hover{
+.belt__social-icon:hover{
     color: var(--first-color);
 }
 
-/* ===== SKILLS =====*/
-.skills__container{
+/* ===== PROGRAMS =====*/
+.programs__container{
     row-gap: 2rem;
 }
-.skills__subtitle{
+.programs__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
     font-size: 1.35rem;
 }
-.skills__name{
+.programs__name{
     display: inline-block;
     font-size: 1.1rem;
     margin-right: var(--mb-2);
@@ -271,22 +271,22 @@ img{
     color: black
 }
 
-/* ===== EXPERIENCE =====*/
-.experience{
+/* ===== BLOG =====*/
+.blog{
     background-color: var(--white-color);
 }
-.experience__container{
+.blog__container{
     justify-items: center;
     row-gap: 2rem;
 }
-.experience__img{
+.blog__img{
     position: absolute;
     overflow: hidden;
 }
-.experience__img img{
+.blog__img img{
     border-radius: .5rem;
 }
-.experience__link{
+.blog__link{
     position: absolute;
     bottom: 1000%;
     width: 100%;
@@ -300,10 +300,10 @@ img{
     backdrop-filter: blur(10px);
     transition: .3s;
 }
-.experience__img:hover .experience__link{
+.blog__img:hover .blog__link{
     bottom: 0;
 }
-.experience__link-name{
+.blog__link-name{
     color: var(--dark-color);
 }
 
@@ -426,25 +426,25 @@ img{
         right: 10%;
     }
 
-    .about__container{
+    .belt__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         text-align: initial;
         padding: 4rem 0;
     }
-    .about__img{
+    .belt__img{
         
     }
-    .about__img img{
+    .belt__img img{
         width: 355px;
     }
 
-    .skills__container{
+    .programs__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
 
-    .experience_container{
+    .blog_container{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;
@@ -470,26 +470,26 @@ img{
         margin-right: auto;
     }
 }
-/* #### ABOUT PAGE #### */
-.about
+/* #### BELT PAGE #### */
+.belt
 { padding: 5rem 0 2.5rem 0;}
-.about .row-right
+.belt .row-right
 { padding: 3rem 0;}
-.about .row-right p
+.belt .row-right p
 { margin: 1rem 0;}
-.about-content
+.belt-content
 {
     color: black;
     margin: 1.5rem 0;}
-.about-content li
+.belt-content li
 { display: inherit; margin: 0.6rem 0;}
-.about-content li span
+.belt-content li span
 { filter:  ont-size: 1.1rem;flex: 1;}
-.about-content li span:first-child
+.belt-content li span:first-child
 { color: black; font-weight: 600;}
-.about .row-right h3
+.belt .row-right h3
 { color: var(--green); font-size: 1.5rem;}
-.about .row-right h3 span
+.belt .row-right h3 span
 { color: #fff; font-weight: 400;}
 .btn {
 display: block;
