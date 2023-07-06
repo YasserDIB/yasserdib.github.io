@@ -192,12 +192,10 @@ img{
     row-gap: 5rem;
 }
 .home__video{
-     width: 50%; /* ajustez la largeur selon vos besoins */
-     height: auto; /* ajustez la hauteur selon vos besoins */
+     width: 80%; /* ajustez la largeur selon vos besoins */
+     height: 10%; /* ajustez la hauteur selon vos besoins */
 }
-.home__title span{
-    text-shadow: 0 20px 25px rgba(0,0,0,.5);
-}
+
 .home__scroll{
     align-self: flex-end;
     padding-bottom: var(--mb-4);
@@ -210,9 +208,9 @@ img{
 .home__img{
     position: absolute;
     right: 0px;
-    bottom: 100px;
-    width: 50px;
-    height: 100px;
+    bottom: 50px;
+    width: 20px;
+    height: 80px;
     padding: 0;
     margin: 0;
     
