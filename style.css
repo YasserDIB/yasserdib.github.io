@@ -131,9 +131,9 @@ img{
     .nav__menu{
         position: fixed;
         top: var(--header-height);
-        right: -80%;
-        width: 70%;
-        height: 80%;
+        right: -100%;
+        width: 100%;
+        height: 100%;
         padding: 2rem;
         background-color: whit);
         transition: .5s;
@@ -170,9 +170,9 @@ img{
 .active::after{
        position: fixed;
         top: var(--header-height);
-        right: -80%;
-        width: 70%;
-        height: 80%;
+        right: -100%;
+        width: 100%;
+        height: 100%;
         padding: 2rem;
         background-color: rgba(255,255,255,.3);
         transition: .5s;
@@ -187,26 +187,13 @@ img{
     row-gap: 2rem;
     text-align: center;
 }
-.home__img{
-    position: absolute;
-    right: 0px;
-    bottom: 150px;
-    width: 100px;
-    height: 100px;
-    padding: 0;
-    margin: 0; 
-}
-.home__img img{
-    width: 100px;
-    border-radius:.55rem;
-}
 .home__subtitle{
-    font-size: 2.05rem;
+    font-size: 1.75rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
 .home__text{
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: black;
     margin-bottom: var(--mb-4);
 }
@@ -224,8 +211,8 @@ img{
     color: var(--first-color);
 }
 .home__video{
-    width: 200%; /* ajustez la largeur selon vos besoins */
-    height: 10%; /* ajustez la hauteur selon vos besoins */
+    width: auto; /* ajustez la largeur selon vos besoins */
+    height: auto; /* ajustez la hauteur selon vos besoins */
 }
 }
 .home__scroll{
