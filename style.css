@@ -179,10 +179,7 @@ img{
         backdrop-filter: blur(10px);
 
 }
-.video {
-  width: 50%; /* ajustez la largeur selon vos besoins */
-  height: 50%; /* ajustez la hauteur selon vos besoins */
-}
+
 
 /*===== HOME =====*/
 .home{
@@ -194,12 +191,9 @@ img{
     height: calc(100vh - var(--header-height));
     row-gap: 5rem;
 }
-.home__title{
-    align-self: flex-end;
-    font-size: var(--big-font-size);
-    margin-bottom: var(--mb-5);
-    color: var(--white-color);
-    line-height: .8;
+.home__video{
+     width: 50%; /* ajustez la largeur selon vos besoins */
+     height: auto; /* ajustez la hauteur selon vos besoins */
 }
 .home__title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
