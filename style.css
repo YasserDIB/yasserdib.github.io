@@ -180,20 +180,26 @@ img{
 
 }
 
-
 /*===== HOME =====*/
 .home__container{
     justify-items: center;
     row-gap: 2rem;
     text-align: center;
 }
+.home__img{
+    justify-self: center ;
+}
+.home__img img{
+    width: 250px;
+    border-radius:.55rem;
+}
 .home__subtitle{
-    font-size: 1.75rem;
+    font-size: 2.05rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
 .home__text{
-    font-size: 1rem;
+    font-size: 1.15rem;
     color: black;
     margin-bottom: var(--mb-4);
 }
@@ -210,20 +216,7 @@ img{
 .home__social-icon:hover{
     color: var(--first-color);
 }
-.home__video{
-    width: auto; /* ajustez la largeur selon vos besoins */
-    height: auto; /* ajustez la hauteur selon vos besoins */
-}
-}
-.home__scroll{
-    align-self: flex-end;
-    padding-bottom: var(--mb-4);
-}
-.home__scroll-link{
-    writing-mode: vertical-lr;
-    transform: rotate(-180deg);
-    color: var(--white-color);
-}
+
 /* ===== BELT =====*/
 .belt__container{
     justify-items: center;
