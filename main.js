@@ -84,7 +84,6 @@ const prevImageBtn = document.querySelector("#prevImgBtn)
      imageIndex+1    
     }
     
-    
  }
 
 function prevImage() {
