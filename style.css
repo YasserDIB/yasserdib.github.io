@@ -185,36 +185,24 @@ img{
     row-gap: 2rem;
     text-align: center;
 }
-.home__img{
+.home__slider{
     justify-self: center ;
 }
-.home__img img{
-    width: 250px;
+.slider__img{
+    width: 100%;
     border-radius:.55rem;
 }
-.home__subtitle{
+.image__title{
     font-size: 2.05rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
-.home__text{
+.image__text{
     font-size: 1.15rem;
     color: black;
     margin-bottom: var(--mb-4);
 }
-.home__profession{
-    color: black;
-    font-size: 1.75rem;
-    display: block;
-    margin-bottom: var(--mb-4);
-}
-.home__social-icon{
-    font-size: 1.45rem;
-    margin: 0 var(--mb-1);
-}
-.home__social-icon:hover{
-    color: var(--first-color);
-    }
+
 /* ===== PROGRAMS =====*/
 .programs__container{
     row-gap: 2rem;
