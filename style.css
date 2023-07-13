@@ -54,11 +54,11 @@ html{
 }
 body{
     margin: var(--header-height) 0 0 0;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    padding: 0; 
+    height: 100vh;
+    display: flex;
+    align-items: centre;
     color: var(--text-color);
-    line-height: 1.6;
 }
 h1,h2,p{
     margin: 0;
