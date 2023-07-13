@@ -67,4 +67,39 @@ sr.reveal('.contact__subtitle', {})
 sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
+
+/*slider */
+const imageIndex = 1
+
+ 
+
+const sliderImg = document.querySelector("#home_slider__img)
+const nextImageBtn = document.querySelector("#nextImgBtn) 
+const prevImageBtn = document.querySelector("#prevImgBtn) 
+
+ function nextImage() {
+    if(imageIndex === 4) {
+     imageIndex = 1
+    }else{
+     imageIndex+1    
+    }
+    
+    
+ }
+
+function prevImage() {
+     if(imageIndex === 1) {
+      imageIndex = 4
+    }else {
+      imageIndex-1
+    }
+    
+ }
+
+nextImageBtn.addEventListener('click', nextImage())
+prevImageBtn.addEventListener('click', prevImage())
+
+sliderImg.serc = `./${imageIndex}.jpg`                                         
+                                      
+
   
