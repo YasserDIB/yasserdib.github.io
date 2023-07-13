@@ -43,13 +43,20 @@
         <main class="l-main">
             <!--===== HOME=====-->
     
-	  <section class="home section" id="home">
+	  <section class="section" id="home">
 		    <div class="home__container bd-grid">
-                       <div class="home__slider">
-                         <img src="" width="200px" class="slider__img" id="home_slider__img">
-                         <div class="slider_control">
-				<button id="nextImgBtn">+</button>
-				<button id="prevImgBtn">-</button> 
+				<div class="slider-container">
+      <div id="slide-number" class="slide-number"></div>
+      <img decoding="async" src="./1.jpg" alt="" />
+      <img decoding="async" src="./2.jpg" alt="" />
+      <img decoding="async" src="./3.jpg" alt="" />
+      <img decoding="async" src="./4.jpg" alt="" />
+    </div>
+    <div class="slider-controls">
+      <span id="prev" class="prev">Previous</span>
+      <span id="indicators" class="indicators"></span>
+      <span id="next" class="next">Next</span>
+    </div>
 			 </div>	 
                        </div>
                     </div>
