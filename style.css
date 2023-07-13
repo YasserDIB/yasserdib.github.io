@@ -183,40 +183,40 @@ img{
 
 
 
-/* ===== BELT =====*/
-.belt__container{
+/* ===== HOME =====*/
+.home__container{
     justify-items: center;
     row-gap: 2rem;
     text-align: center;
 }
-.belt__img{
+.home__img{
     justify-self: center ;
 }
-.belt__img img{
+.home__img img{
     width: 250px;
     border-radius:.55rem;
 }
-.belt__subtitle{
+.home__subtitle{
     font-size: 2.05rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
-.belt__text{
+.home__text{
     font-size: 1.15rem;
     color: black;
     margin-bottom: var(--mb-4);
 }
-.belt__profession{
+.home__profession{
     color: black;
     font-size: 1.75rem;
     display: block;
     margin-bottom: var(--mb-4);
 }
-.belt__social-icon{
+.home__social-icon{
     font-size: 1.45rem;
     margin: 0 var(--mb-1);
 }
-.belt__social-icon:hover{
+.home__social-icon:hover{
     color: var(--first-color);
 }
 
