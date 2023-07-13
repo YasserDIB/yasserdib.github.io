@@ -50,10 +50,6 @@ const sr = ScrollReveal({
 })
 
 /*SCROLL HOME*/
-sr.reveal('.home__subtitle', {delay: 300})
-sr.reveal('.home__profession', {delay: 400})
-sr.reveal('.home__text', {delay: 500})
-sr.reveal('.home__social-icon', {delay: 600, interval: 200})
 // Get Slider Items | Array.form [ES6 Feature]
 var sliderImages = Array.from(document.querySelectorAll('.slider-container img'));
 
@@ -220,6 +216,10 @@ function removeAllActive() {
 
 }
 
+sr.reveal('.home__subtitle', {delay: 300})
+sr.reveal('.home__profession', {delay: 400})
+sr.reveal('.home__text', {delay: 500})
+sr.reveal('.home__social-icon', {delay: 600, interval: 200})
 /*SCROLL PROGRAMS*/
 sr.reveal('.programs__subtitle', {})
 sr.reveal('.programs__name', {distance: '20px', delay: 50, interval: 100})
