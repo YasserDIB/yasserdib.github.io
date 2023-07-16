@@ -68,54 +68,47 @@ sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
+let img__slider = document.getElementsByClassName('img__slider');
 
-const items = document.querySelectorAll('img');
-const nbSlide = items.length;
-const suivant = document.querySelector('.right');
-const precedent = document.querySelector('.left');
-let count = 0;
+let etape = 0;
 
-function slideSuivante(){
-    items[count].classList.remove('active');
+let nbr__img = img__slider.length;
 
-    if(count < nbSlide - 1){
-        count++;
-    } else {
-        count = 0;
-    }
+let precedent = document.querySelector('.precedent');
+let suivant = document.querySelector('.suivant');
 
-    items[count].classList.add('active')
-    console.log(count);
-    
-}
-suivant.addEventListener('click', slideSuivante)
-
-
-function slidePrecedente(){
-    items[count].classList.remove('active');
-
-    if(count > 0){
-        count--;
-    } else {
-        count = nbSlide - 1;
-    }
-
-    items[count].classList.add('active')
-    // console.log(count);
-    
-}
-precedent.addEventListener('click', slidePrecedente)
-
-function keyPress(e){
-    console.log(e);
-    
-    if(e.keyCode === 37){
-        slidePrecedente();
-    } else if(e.keyCode === 39){
-        slideSuivante();
+function enleverActiveImages() {
+    for(let i = 0 ; i < nbr__img ; i++) {
+        img__slider[i].classList.remove('active');
     }
 }
-document.addEventListener('keydown', keyPress)
+
+suivant.addEventListener('click', function() {
+    etape++;
+    if(etape >= nbr__img) {
+        etape = 0;
+    }
+    enleverActiveImages();
+    img__slider[etape].classList.add('active');
+})
+
+precedent.addEventListener('click', function() {
+    etape--;
+    if(etape < 0) {
+        etape = nbr__img - 1;
+    }
+    enleverActiveImages();
+    img__slider[etape].classList.add('active');
+})
+
+setInterval(function() {
+    etape++;
+    if(etape >= nbr__img) {
+        etape = 0;
+    }
+    enleverActiveImages();
+    img__slider[etape].classList.add('active');
+}, 3000)
                                       
 
   
