@@ -185,10 +185,11 @@ img{
 
 .slider img {
     object-fit: cover;
-    height: 40%;
-    width: 40%;
+    height: 80%;
+    width: 80%;
     position: absolute;
     transition: opacity .5s;
+
 }
 
 .slider img.active {
@@ -197,7 +198,7 @@ img{
 
 .suivant, .precedent {
     color: #8B0000;
-    font-size: 4rem;
+    font-size: 5rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -205,11 +206,11 @@ img{
 }
 
 .suivant {
-    right: 0.5rem;
+    right: 4rem;
 }
 
 .precedent {
-    left: 0.5rem;
+    left: 4rem;
 }
 /* ===== PROGRAMS =====*/
 
