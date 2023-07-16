@@ -20,7 +20,6 @@ suivant.addEventListener('click', function() {
     }
     enleverActiveImages();
     img__slider[etape].classList.add('active');
-
 })
 
 precedent.addEventListener('click', function() {
@@ -73,18 +72,9 @@ function scrollActive(){
         }
     })
 }
-
-/*===== SCROLL REVEAL ANIMATION =====*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
-})
+/*SCROLL HOME*/
 
 /*SCROLL PROGRAMS*/
-
-
 
 /*SCROLL BLOG*/
 sr.reveal('.blog__img', {interval: 200})
@@ -94,6 +84,3 @@ sr.reveal('.contact__subtitle', {})
 sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
-
-
-  
