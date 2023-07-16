@@ -179,7 +179,7 @@ img{
         backdrop-filter: blur(10px);
 }
 
-
+/* Home */ 
 .slider {
     height: 50vh;
     position: relative;
@@ -218,55 +218,43 @@ img{
     left: 13rem;
 }
 /* ===== PROGRAMS =====*/
-
-.container{
-    width: 100%;
-    height: 100vh;
+.slider {
+    height: 50vh;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.container .sliderr{
+.slider video {
+    object-fit: cover;
+    height: 50%;
+    width: 50%;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.container ul{
-    position: absolute;
-    bottom: 30px;
     left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 20;
+    opacity: 0;
+    transition: opacity .5s;
+
 }
 
-.container ul li{
-    list-style: none;
+.slider video.active {
+    opacity: 1;
+}
+
+.suivant, .precedent {
+    color: #8B0000;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     cursor: pointer;
-    margin: 10px;
 }
 
-
-.container ul li video{
-    width: 200px;
-    transition: all 0.3s;
-}
-.container ul li video:hover{
-    transform: scale(1.1);
+.suivant {
+    right: 13rem;
 }
 
-video{
-    width: 100%;
-    height: 100%;
+.precedent {
+    left: 13rem;
 }
-
 
 /* ===== BLOG =====*/
 .blog{
