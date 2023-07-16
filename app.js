@@ -43,6 +43,52 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
+/* Programs */
+let video__slider = document.getElementsByClassName('video__slider');
+
+let etape = 0;
+
+let nbr__video = video__slider.length;
+
+let precedent = document.querySelector('.precedent');
+let suivant = document.querySelector('.suivant');
+
+function enleverActiveVideos() {
+    for(let i = 0 ; i < nbr__video ; i++) {
+        video__slider[i].classList.remove('active');
+    }
+}
+
+suivant.addEventListener('click', function() {
+    etape++;
+    if(etape >= nbr__video) {
+        etape = 0;
+    }
+    enleverActiveVideos();
+    video__slider[etape].classList.add('active');
+})
+
+precedent.addEventListener('click', function() {
+    etape--;
+    if(etape < 0) {
+        etape = nbr__video - 1;
+    }
+    enleverActiveVideos();
+    video__slider[etape].classList.add('active');
+})
+/*===== MENU SHOW =====*/ 
+const showMenu = (toggleId, navId) =>{
+    const toggle = document.getElementById(toggleId),
+    nav = document.getElementById(navId)
+
+    if(toggle && nav){
+        toggle.addEventListener('click', ()=>{
+            nav.classList.toggle('show')
+        })
+    }
+}
+showMenu('nav-toggle','nav-menu')
+
 /*===== REMOVE MENU MOBILE =====*/
 const navLink = document.querySelectorAll('.nav__link')
 
