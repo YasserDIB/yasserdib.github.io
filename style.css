@@ -74,8 +74,10 @@ a{
 }
 img{
     max-width: 100%;
+    test-align:center;
     height: auto;
-    display: block;
+    margin: auto;
+    display: flex;
 }
 
 /*===== CLASS CSS ===== */
@@ -211,29 +213,13 @@ img{
 }
 
 .suivant {
-    right: 13rem;
+    right: 15rem;
 }
 
 .precedent {
-    left: 13rem;
+    left: 15rem;
 }
 /* ===== PROGRAMS =====*/
-.slider {
-    height: 50vh;
-    position: relative;
-}
-
-.slider video {
-    object-fit: cover;
-    height: 50%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    opacity: 0;
-    transition: opacity .5s;
-
-}
 
 /* ===== BLOG =====*/
 .blog{
