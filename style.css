@@ -184,7 +184,7 @@ img{
 /* Home */ 
 .slider {
     height: 50vh;
-    position: relative;
+    position: center;
 }
 
 .slider img {
