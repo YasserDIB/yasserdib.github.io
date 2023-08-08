@@ -235,27 +235,6 @@ img{
 
 }
 
-.slider video.active {
-    opacity: 1;
-}
-
-.suivant, .precedent {
-    color: #8B0000;
-    font-size: 3rem;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-
-.suivant {
-    right: 13rem;
-}
-
-.precedent {
-    left: 13rem;
-}
-
 /* ===== BLOG =====*/
 .blog{
     background-color: var(--white-color);
